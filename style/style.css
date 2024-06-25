@@ -61,6 +61,16 @@ table {
 	zoom: 1;
 }
 
+/* Cursor Trail Animation */
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 10000;
+}
+
+
 
 
 /* style */
