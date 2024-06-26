@@ -72,7 +72,7 @@ header {
 body {
     background-color: black;
     color: white;
-    font-family: monospace;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .logo {
     width: 120px;
@@ -131,17 +131,20 @@ nav ul li {
     width: 100%;
     margin-top: 150px;
 }
-.s3 {
+.s31 {
     height: max-content;
     width: 100%;
 }
 .judul{
     height: 25%;
+    
 }
 .judul h1 {
     font-size: 30px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
 }
 .lef {
     text-align: left;
@@ -182,7 +185,6 @@ nav ul li {
 .card-img {
     width: 100%;
     height: 200px;
-    border: 1px solid yellow;
 }
 .deskripsi {
     padding: 5px;
@@ -204,19 +206,14 @@ nav ul li {
 }
 
 /* kartu 2 */
-.konten {
+.konten1 {
     width: 100vw;
     height: 370px;
-    border: 1px solid red;
     text-align: center;
 }
-.konten2 {
-    background-color: #00FF85;
-}
-.card-1 {
+.card-11 {
     width: 400px;
     height: 350px;
-    border: 1px solid white;
     margin: 10px;
     display: inline-block;
 }
@@ -238,18 +235,114 @@ nav ul li {
     width: 300px;
     height: 200px;
 }
-.card-img {
+.card-im1 {
     width: 100%;
     height: 200px;
     border: 1px solid yellow;
 }
-.deskripsi {
+.deskripsi1 {
     padding: 5px;
     box-sizing: border-box;
 }
-.deskripsi h1 {
+.deskripsi1 h1 {
     font-size: 25px;
     text-align: center;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+/* hahahaahha */
+.types h1{
+    height: 80px;
+    line-height: 90px;  
+    margin-left: 180px;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* kartu */
+.konten1 {
+    width: 100vw;
+    height: 370px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.kartu-gambar h1 {
+    margin-top: -130px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.kartu-1 {
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    display: inline-block;
+}
+.gambar11 {
+    background-image: url(../img/kartu.png);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.gambar12 {
+    background-image: url(../img/kartu.png);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.gambar13 {
+    background-image: url(../img/kartu.png);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.kartu-gambar {
+    width: 100%;
+    height: 200px;
+}
+.deskripsi {
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: left;
+    box-sizing: border-box;
+    height: 170px;
+    background-color: rgb(57, 56, 56);
+}
+.deskripsi h1 {
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.deskripsi p{
+    line-height: 20px;
+    font-size: 16px;
+}
+.tombol{
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #00FF85;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 5% auto;
+}
+.motto{
+    margin: 200px;
+    text-align: center;
+    font-size: 60px;
+    color: #00FF85;
+    font-weight: 400;
+}
+
+.s3kon {
+    margin-top: 10%;
+    background-color: #1b1b1e;
+    padding: 10px;
+    box-sizing: border-box;
 }
