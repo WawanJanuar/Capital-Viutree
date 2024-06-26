@@ -132,7 +132,7 @@ nav ul li {
     margin-top: 150px;
 }
 .s3 {
-    height: 400px;
+    height: max-content;
     width: 100%;
 }
 .judul{
@@ -143,6 +143,9 @@ nav ul li {
     text-align: center;
     margin-top: 100px;
 }
+.lef {
+    text-align: left;
+}
 
 /* kartu */
 .konten {
@@ -150,6 +153,65 @@ nav ul li {
     height: 370px;
     border: 1px solid red;
     text-align: center;
+}
+.card-1 {
+    width: 400px;
+    height: 350px;
+    border: 1px solid white;
+    margin: 10px;
+    display: inline-block;
+}
+.img11 {
+    background-image: url(../img/image1.png);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+.img12 {
+    background-image: url(../img/visual.png);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+.img13 {
+    background-image: url(../img/compare.png);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+.card-img {
+    width: 100%;
+    height: 200px;
+    border: 1px solid yellow;
+}
+.deskripsi {
+    padding: 5px;
+    box-sizing: border-box;
+}
+.deskripsi h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.judul{
+    height: 25%;
+}
+.judul h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* kartu 2 */
+.konten {
+    width: 100vw;
+    height: 370px;
+    border: 1px solid red;
+    text-align: center;
+}
+.konten2 {
+    background-color: #00FF85;
 }
 .card-1 {
     width: 400px;
