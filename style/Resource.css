@@ -117,7 +117,7 @@ body {
     background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
-    font-family: monospace;
+    font-family: sans-serif;
     color: white;
 }
 a {
@@ -151,14 +151,19 @@ nav ul {
     margin-right: 30%;
 }
 
-
 main {
-    padding: 125px 20px 90px 20px;
+    padding-top: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: rgb(0, 0, 0);
 }
 
 .article1-resource {
     text-align: center;
+    margin: auto;
+}
+.article2-section-resource {
+    margin: auto;
 }
 
 .article1-sec1-resource, .article1-sec2-resource, .article1-sec3-resource {
@@ -170,31 +175,35 @@ main {
 }
 
 .article1-sec1-resource {
-    font-size: 90px;
-    height: 315px;
+    font-size: 60px;
+    height: 180px;
     background-color: rgb(17, 97, 70);
 }
 
 .article1-sec2-resource {
-    font-size: 35px;
-    height: 155px;
+    font-size: 25px;
+    height: 100px;
     background-color: rgb(139, 85, 19);
 }
 
 .article1-sec3-resource {
     font-size: 18px;
-    height: 175px;
+    height: 120px;
     background-color: rgb(9, 59, 106);
 }
 .article1-h1 {
     font-weight: 800;
 }
 .article1-h2 {
-    font-weight: 600;
+    font-weight: 400;
+}
+.heading-container h1 span {
+    margin-top: 10px; 
 }
 .article1-button-resource {
-    width: 285px;
-    height: 55px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
     font-weight: normal;
     background-color: #00CF9D;
     color: rgb(0, 0, 0);
@@ -204,4 +213,74 @@ main {
     border-radius: 13px;
     cursor: pointer;
     text-align: center
+}
+
+/* Artikel 2 */
+.article2-resource {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.article2-section-resource {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0px;
+    margin: auto;
+}
+/*
+.box {
+    background-color: #f0f0f0;
+    margin-bottom: 35px; 
+    margin-right: 35px;
+    flex: 1 0 calc(33.333% - 35px); /* Lebar kotak dengan margin horizontal */
+   /* max-width: calc(33.333% - 35px); /* Lebar maksimum kotak *//*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+*/
+/* Mengatur ulang elemen .box untuk tata letak vertikal */
+.box {
+    background-color: #454141;
+    margin-bottom: 35px; 
+    margin-right: 35px;
+    flex: 1 0 calc(33.333% - 35px); /* Lebar kotak dengan margin horizontal */
+    max-width: calc(33.333% - 35px); /* Lebar maksimum kotak */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    height: 450px;
+    text-align: left;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box h3 {
+    margin: 30px 0;
+    margin-left: 20PX;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.box p {
+    margin: 0 20px 0 20px;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: justify;
 }
